@@ -1,4 +1,4 @@
-import { CreateAccount, LogIn } from "../buttons"
+import { LogIn } from "../buttons"
 import hero from "../images/Organic_Frames1.jpg"
 
 export default function Home() {
@@ -29,7 +29,9 @@ export default function Home() {
             <article className="hidden md:block">
               <img
                 src={hero}
-                
+                alt="Organic Frame"
+                title="OrganicFrame"
+                className="rounded"
               />
             </article>
           </div>
