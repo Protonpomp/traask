@@ -1,5 +1,5 @@
 import { LogIn } from "../buttons"
-import hero from "../images/Organic_Frames1.jpg"
+import hero from "../images/dots.png"
 
 export default function Home() {
   return (
@@ -27,7 +27,7 @@ export default function Home() {
             </article>
 
             <article className="hidden md:block">
-              <img
+              <img class="max-w-md h-auto"
                 src={hero}
                 alt="Organic Frame"
                 title="OrganicFrame"
